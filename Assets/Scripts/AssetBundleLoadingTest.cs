@@ -17,7 +17,7 @@ using System.Collections.Generic;
 **/
 public class AddressableSpawn : MonoBehaviour
 {
-    private string[] assetPaths = {
+    private IEnumerable assetPaths = new string[] {
         "Assets/Resources_moved/Objects/Prefabs/Office/Box/Box.prefab",
         "Assets/Resources_moved/Objects/Prefabs/Office/Cabinet with drawings/Cabinet with drawings.prefab",
         "Assets/Resources_moved/Objects/Prefabs/Office/Chair Office/Chair Office.prefab",
