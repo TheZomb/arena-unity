@@ -7,6 +7,8 @@ TagManager:
   - CinemachineTarget
   - robot
   - Wall
+  - Floor
+  - Cube
   layers:
   - Default
   - TransparentFX
@@ -19,8 +21,8 @@ TagManager:
   - PostProcessing
   - Not in Reflection
   - 
-  - 
-  - 
+  - Obs
+  - Ped
   - 
   - 
   - 
